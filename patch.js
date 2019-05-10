@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 module.exports = function (context) {
-    var fs = context.requireCordovaModule('fs'),
-        path = context.requireCordovaModule('path'),
-        platformRoot = path.join(context.opts.projectRoot, 'platforms/android'),
+    var path              = require('path'),
+        fs                = require('fs');
+    var platformRoot = path.join(context.opts.projectRoot, 'platforms/android'),
         manifestFile = path.join(platformRoot, 'AndroidManifest.xml');
 
     if (fs.existsSync(manifestFile)) {
