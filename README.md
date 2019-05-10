@@ -6,13 +6,13 @@ Cordova plugin to add support for Android TV to your project's AndroidManifest.x
 Install
 -------
 
-`cordova plugin add cordova-plugin-android-tv`
+`cordova plugin add https://github.com/ksonglover/cordova-plugin-android-tv`
 
 `copy <your tvbanner.png> ./platforms/android/res/drawable/banner.png`
 
 Source
 ------
-https://github.com/frontyard/cordova-plugin-android-tv
+https://github.com/ksonglover/cordova-plugin-android-tv
 
 Forked from
 -----------
