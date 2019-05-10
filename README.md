@@ -8,6 +8,8 @@ Install
 
 `cordova plugin add cordova-plugin-android-tv`
 
+`copy <your tvbanner.png> ./platforms/android/res/drawable/banner.png`
+
 Source
 ------
 https://github.com/frontyard/cordova-plugin-android-tv
